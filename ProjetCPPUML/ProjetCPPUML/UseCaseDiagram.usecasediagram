@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f7bbdc47-d459-4ec4-88cc-d900e882c693" name="UseCaseDiagram" linkedPackageId="083b6ff4-fc52-4e56-af2b-16d752519db6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a651589d-4e8d-4696-bcf3-d42de959e77d">
+      <profileInstance Id="08dd60cd-d1ec-4f5f-82f1-43ec1b86b90c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="809a44b8-1cf5-42ff-b91e-6d4ca3aff3f8">
+      <profileInstance Id="a014907c-ca43-4585-9383-ee8ef8ace7e8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="42c6a6cc-2a18-464f-97f7-aebde28a68a4" name="Joueur" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5695bb0f-7d43-41b2-b014-881e9068a593" />
+        <targetEnds>
+          <association Id="9107069e-e5cc-41e4-99bf-ea1fb4018d1c" isDerived="false" sourceEndRoleName="Joueur" targetEndRoleName="Action" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2aab0aaf-2b82-4aa2-a8fd-aff3fbf8e06b" LastKnownName="Action" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80175073-7ccf-43a5-8643-87f9bc96f34a" name="Joueur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ffd9dbb3-8674-4aa1-840d-9188c5a6ad21" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33e728cb-f1e3-4f8c-a45a-295690cad206" name="Action" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a5926ae4-3145-4bbf-8b22-a2ebf34916a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0e285155-3b61-4769-a88c-c0d59d1a6ee2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="63f744a7-8311-4437-80f8-9474e2b20b30" name="Actions joueur" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="556743a6-70ec-464c-b0d2-df90139e5a2e" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="8e67117e-0147-4944-8a1d-260b1fff0e94" name="Lancer de dé1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4cc6ad18-6d99-424a-b21f-1dbdd0521808" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0ec9b35a-8f33-4f7b-ac11-8690e6483b76" name="Lancer un dé1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f4206366-534d-4190-9664-dd948f27197d" />
+        <generalsInternal>
+          <generalization Id="2c1601d7-2c74-4a02-9dea-4863af48eb88" isSubstitutable="false">
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <elementDefinition Id="ed4d9d56-f070-4740-8c28-a84a1a1b79e6" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="134f8635-0fcb-4c42-a33c-aa1c1b5a6e9d" name="Lancé deux dés1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b0511bd3-2c55-4cc5-badb-a5953fdd74f7" />
+        <generalsInternal>
+          <generalization Id="92b26ab3-24e7-4f76-88fd-8d46490a3838" isSubstitutable="false">
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <elementDefinition Id="235c4713-14c2-4915-9d78-dbe5dcc0d918" />
+          </generalization>
+        </generalsInternal>
+        <additions>
+          <include Id="baa2442e-ffd6-4b75-a074-8b719a80cf61">
+            <useCaseMoniker Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" LastKnownName="Choisir un ou deux dés1" />
+            <elementDefinition Id="37c10b9f-278a-4dcb-b0e9-72571e4ece7d" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" name="Choisir un ou deux dés1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="46131620-9184-4c60-bd20-0aebcdc6be22" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" name="Déplacer vaisseau1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="82c70d77-67de-4643-9780-b9d2c00f597a" />
+        <generalsInternal>
+          <generalization Id="cdac5495-d496-4c64-8418-73edbfbad417" isSubstitutable="false">
+            <useCaseMoniker Id="2aab0aaf-2b82-4aa2-a8fd-aff3fbf8e06b" LastKnownName="Action" />
+            <elementDefinition Id="3070a0a1-539b-4f69-943f-954e93b708ae" />
+          </generalization>
+        </generalsInternal>
+        <additions>
+          <include Id="cdd93259-e8d8-4c75-a2e1-f54c26d747c2">
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <elementDefinition Id="76d8928e-ede2-4c5b-8323-d1120f209072" />
+          </include>
+          <include Id="4e0d0087-5a28-4eed-8fce-c04c8267eeec">
+            <useCaseMoniker Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" LastKnownName="Déterminer cases accessibles1" />
+            <elementDefinition Id="7cd7db37-99fd-49c9-9250-fe5ec8569c37" />
+          </include>
+          <include Id="7a18766e-9770-4a84-8cb3-9aeadc5a2279">
+            <useCaseMoniker Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" LastKnownName="Choisir une direction1" />
+            <elementDefinition Id="74b5af0c-39a7-4eb7-8fba-47789967ebf2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" name="Déterminer cases accessibles1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="28230e9a-58d9-4376-9cac-72641385da9a" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" name="Choisir une direction1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e1d8f942-7c6b-4cac-9cc8-7f521d2bd54e" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2d7a0dd9-4fba-4651-9663-93bea53c1683" name="Tirer au laser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0d296e9b-dc95-45f4-aa99-d811e6314a8e" />
+        <generalsInternal>
+          <generalization Id="3e1bccbe-aa30-43ce-8820-adbe2d277c04" isSubstitutable="false">
+            <useCaseMoniker Id="2aab0aaf-2b82-4aa2-a8fd-aff3fbf8e06b" LastKnownName="Action" />
+            <elementDefinition Id="8e0e2123-675c-4fd8-b741-d3a27e67a29f" />
+          </generalization>
+        </generalsInternal>
+        <additions>
+          <include Id="14419f02-feb0-4afb-84ac-69e0d28eea31">
+            <useCaseMoniker Id="f92de262-63f7-40ae-bcb7-7868481184f1" LastKnownName="Choisir direction" />
+            <elementDefinition Id="4fbeff58-97fb-40aa-9b47-58c78ffd9b99" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d216dfcd-8cae-4320-b956-7ce62d6bf9f6" name="Plus de charge d'énergie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3e53e8ce-2828-4886-955f-d63fdac53e56" />
+        <extendedCases>
+          <extend Id="fd7c426b-9d62-438d-b8fc-8388c815647c">
+            <useCaseMoniker Id="2d7a0dd9-4fba-4651-9663-93bea53c1683" LastKnownName="Tirer au laser" />
+            <elementDefinition Id="f8f62bfe-6e98-442c-abf3-218720cd667f" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f92de262-63f7-40ae-bcb7-7868481184f1" name="Choisir direction" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="446b84b7-6309-4339-b835-ef353f07292b" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="712e25d3-ba28-4229-b594-697c5c247cab" name="Tir avec capsule de survie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="27c2362a-d39b-48ff-a0c8-e99355ac08f6" />
+        <generalsInternal>
+          <generalization Id="ad1185e6-c08c-4f3f-b346-f8f83c0f2f31" isSubstitutable="false">
+            <useCaseMoniker Id="2d7a0dd9-4fba-4651-9663-93bea53c1683" LastKnownName="Tirer au laser" />
+            <elementDefinition Id="b4600851-7064-48c6-b0e5-9ab49889c44d" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d7b1e769-a52e-4076-8fa8-9fa9d2738837" name="Tir avec vaisseau mère" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eb336d2b-7956-4db5-b178-f599a56d40ab" />
+        <generalsInternal>
+          <generalization Id="c2b437c0-0a2c-4ec7-927b-0d3bcd756bf3" isSubstitutable="false">
+            <useCaseMoniker Id="2d7a0dd9-4fba-4651-9663-93bea53c1683" LastKnownName="Tirer au laser" />
+            <elementDefinition Id="b894aa1a-6953-4e7f-81a3-b822977939a8" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="89445299-5193-492b-a4a8-eb9d12595ea9" name="Tir avec battlecruiser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0507d1fb-c961-4ba2-a8cd-ba9221a0de33" />
+        <generalsInternal>
+          <generalization Id="1540bb35-1309-4c82-959b-359125d7f6ee" isSubstitutable="false">
+            <useCaseMoniker Id="2d7a0dd9-4fba-4651-9663-93bea53c1683" LastKnownName="Tirer au laser" />
+            <elementDefinition Id="be982606-d9a4-407e-ad20-8efd5aba4737" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3318956e-8b4f-44ef-8404-46589d20e76f" name="Collecter artefact" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f9100dd1-fbc3-4a5a-9ad4-eb2a0a0ccd3b" />
+        <extendedCases>
+          <extend Id="8e28fea2-bc1b-4f6b-831c-1be5d33a828a">
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <elementDefinition Id="617c05da-1473-46a3-8f5e-b4cd1d99a4db" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="85dc29e0-3ac2-43bb-971b-5f79df182368" name="Recharger vaisseau" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41a5f457-1669-42a6-acd0-7a70bed9425b" />
+        <extendedCases>
+          <extend Id="47dbe482-2ebd-45eb-9ce4-2fb59f6500c5">
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <elementDefinition Id="d5eec599-949f-42d0-b3dd-22a532f511fe" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1165c7fe-6071-4188-9ecb-b3593b106a3d" name="Rentrer à la base" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c429ab1-ec59-42b0-aab2-9f8f07660ed9" />
+        <extendedCases>
+          <extend Id="bc9ec4fc-ccfc-4b0d-8e93-30a1abc48a4c">
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <elementDefinition Id="bae1f883-4903-439d-9c38-286cdd1389b7" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2aab0aaf-2b82-4aa2-a8fd-aff3fbf8e06b" name="Action" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="13817161-bf47-48b3-a19f-d9f7a0a00610" />
+        <subjects>
+          <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="083b6ff4-fc52-4e56-af2b-16d752519db6" name="ProjetCPPUML">
+    <elementDefinition Id="3de64740-dc67-4e86-ab72-1c3f9b4e31f7" />
+  </package>
+</useCaseModelRoot>

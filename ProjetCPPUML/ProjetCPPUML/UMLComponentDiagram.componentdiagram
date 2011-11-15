@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="77cb6487-bc85-4f03-bfcc-5173dd0f416f" name="UMLComponentDiagram" linkedPackageId="7c948099-60a3-4cce-8476-08d8e20ae3cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="0b0e0464-1750-441e-89b8-d6b4b13d2af8">
+      <profileInstance Id="cfa091cd-7d6f-43bd-9315-2603c3f0c650" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0cde6b2d-ffb6-428f-8f39-4ea8dffd8016">
+      <profileInstance Id="eb0b4d24-74a0-4bef-90ec-c1c44988285b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="cf4137a6-0b99-4c5f-89f0-c34ff6fe6e13" name="Ressources" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="447e7311-3ab1-4d99-adcf-fb9a5cb6ef4d" />
+        <ownedAttributesInternal>
+          <part Id="d783d4b5-9ad2-467a-ac43-0208f92f1b99" name="Images" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="b5832dd8-4705-4128-941f-66c74bbd667e" />
+            <type_NamedElement>
+              <componentMoniker Id="b5b3d0d6-27c9-47af-8055-6c2b9a4a9226" LastKnownName="Ressources" />
+            </type_NamedElement>
+          </part>
+          <part Id="c35c931b-d748-46ca-b099-7724e0463432" name="Sons" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="1e906d9c-c826-483f-86d0-d03d889105db" />
+            <type_NamedElement>
+              <componentMoniker Id="7694b8b1-9a5e-481e-b03d-2424e0bab642" LastKnownName="Ressources" />
+            </type_NamedElement>
+          </part>
+          <providedInterface Id="57625bd9-94ac-439c-892f-6bc2e2d7e63b" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="dd6e2af4-1f10-4ac2-949e-5ba89ebd260c" />
+            <type_NamedElement>
+              <interfaceMoniker Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" LastKnownName="Fournit" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b5b3d0d6-27c9-47af-8055-6c2b9a4a9226" name="Ressources" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="444f866f-13d7-44ed-9a1e-bbcbd7f90d17" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="7694b8b1-9a5e-481e-b03d-2424e0bab642" name="Ressources" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f72534fe-1d61-4b15-8869-e3730e58c95d" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ab7f65df-5280-4291-acf9-9a116faf3b42" name="DLL du moteur du jeu en C++" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a1ce994a-1458-4d61-ade4-b35278595ffd" />
+        <ownedAttributesInternal>
+          <providedInterface Id="18df2f86-0a87-4797-ae77-4a20bd9797f2" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="af640696-e090-421e-ad17-b34b9eb8532c" />
+            <type_NamedElement>
+              <interfaceMoniker Id="578121df-7115-418d-a008-0c7573359229" LastKnownName="Modelise" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="6baa4e14-ec37-43b7-adca-ac18dd1cc3f5" name="Executable C#" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e805f1dc-0546-4480-a004-1b25d8dbf879" />
+        <suppliersInternal>
+          <dependency Id="15df0574-79b7-4313-b139-fee58025b4e2">
+            <providedInterfaceMoniker Id="57625bd9-94ac-439c-892f-6bc2e2d7e63b" LastKnownName="Port1" />
+            <elementDefinition Id="a34e00f8-b3c9-46ef-a519-4898f2faf5cd" />
+          </dependency>
+          <dependency Id="711552a6-5829-4a99-b93b-d9b491514b87">
+            <providedInterfaceMoniker Id="18df2f86-0a87-4797-ae77-4a20bd9797f2" LastKnownName="Port1" />
+            <elementDefinition Id="fc37cece-ca52-4ffe-b5bd-b4d5adc8fc20" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" name="Fournit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1aad760-eebe-4c3e-a027-c17ab5b4e695" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="578121df-7115-418d-a008-0c7573359229" name="Modelise" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5bd92db0-9c50-4477-a7c4-375a47d0e1b1" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="7c948099-60a3-4cce-8476-08d8e20ae3cd" name="ProjetCPPUML">
+    <elementDefinition Id="3de64740-dc67-4e86-ab72-1c3f9b4e31f7" />
+  </package>
+</componentModel>
