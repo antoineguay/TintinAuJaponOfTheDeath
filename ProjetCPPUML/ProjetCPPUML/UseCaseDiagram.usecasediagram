@@ -1,17 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f7bbdc47-d459-4ec4-88cc-d900e882c693" name="UseCaseDiagram" linkedPackageId="083b6ff4-fc52-4e56-af2b-16d752519db6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm12="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f7bbdc47-d459-4ec4-88cc-d900e882c693" name="UseCaseDiagram" linkedPackageId="083b6ff4-fc52-4e56-af2b-16d752519db6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="2b091d09-c77c-4aab-92a5-03080cc6d0ea" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="68369f11-8437-487d-95bd-8b8226f25a14" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="00181133-cd31-457e-ac25-0fc342e42f57">
+          <propertyInstance Id="50b4e1ba-7a8d-4d8a-b822-8e80e28cb8da" name="BaseName">
+            <elementDefinition Id="8bf0962d-e32f-4f4d-8bb9-ca12e9a29eec" />
+          </propertyInstance>
+          <elementDefinition Id="a4cb3892-03ff-44c0-b702-d4835e552519" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e997ad59-3b12-4345-9e5e-c45b86c6c1ee">
+          <propertyInstance Id="c9cf5494-6ace-4ed3-8203-3ae2a7346d6b" name="ClrAttributes">
+            <elementDefinition Id="5b6caafd-42f5-4779-a5a4-1070943499c5" />
+          </propertyInstance>
+          <elementDefinition Id="9d35e2f6-16ad-477e-8def-6b098bb0c338" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9e3810d9-fa39-48ff-b748-602639294134">
+          <propertyInstance Id="d6b8f40b-3f8c-4f1f-bc54-976292b1827c" name="Usings">
+            <elementDefinition Id="22b89048-54d6-4e14-81b7-9a1d5bb4f91c" />
+          </propertyInstance>
+          <elementDefinition Id="08e15934-19ac-4760-94f2-0fbd46dfcc5c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="8dda0ebf-85c5-49d1-9ccf-3a8a595ed7d8" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="8bdaa06c-1319-428e-95f5-5a5d00b90d82" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c1a72a22-1643-4a17-a86d-32c4e2a478af">
+          <propertyInstance Id="ba831598-85d5-4c96-9231-4021dfcd7d46" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate|Header">
+            <elementDefinition Id="18b2b4de-8d7e-4893-8615-4ee479a2d0cd" />
+          </propertyInstance>
+          <elementDefinition Id="3408c15f-42e6-4130-9d9e-b70b17908257" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6c72c2cc-e865-42b4-b3c9-a1c54d97bbe6">
+          <propertyInstance Id="f91420fa-9008-4568-8bcf-b4d0d829f28a" name="TemplateFilePath" value="ClassTemplate=..\..\Templates generation code\ClassTemplate.t4|EnumTemplate=..\..\Templates generation code\EnumTemplate.t4|InterfaceTemplate=..\..\Templates generation code\InterfaceTemplate.t4|StructTemplate=..\..\Templates generation code\StructTemplate.t4|Header=..\..\Templates generation code\TemplateHeader.t4">
+            <elementDefinition Id="0b666ce2-143e-4b8a-b0fb-4ad5955a0088" />
+          </propertyInstance>
+          <elementDefinition Id="259196bb-eb88-4484-be78-632ad6f2a073" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="adb2d9c2-6b9c-4563-b448-70328ffcca62">
+          <propertyInstance Id="f722be8c-e143-489b-ae03-cbdcf4525eea" name="ProjectPath" value="ClassTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|EnumTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|InterfaceTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|StructTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|Header=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj">
+            <elementDefinition Id="494ae978-adc8-464b-b9e4-a4f40cb20d42" />
+          </propertyInstance>
+          <elementDefinition Id="86848ede-1718-4c46-a1ca-9ae8e0729072" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a05543ae-cf1b-4359-a3f8-1af1a0753e6b">
+          <propertyInstance Id="1e7cf9a1-0de1-4f05-a315-cecd6fa2da7b" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}|Header=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="804838d9-4c35-4851-aa77-72bfd3e8fd70" />
+          </propertyInstance>
+          <elementDefinition Id="916410a6-a2fa-43ed-967c-e748b0c82214" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d0d074c2-c379-4694-ba9f-d12ea642f06a">
+          <propertyInstance Id="ed50e6b3-9abb-4ee6-bc4a-7505a0455add" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}|Header={Name}">
+            <elementDefinition Id="8b468639-6b5c-44b3-8d8f-5481f745d9ab" />
+          </propertyInstance>
+          <elementDefinition Id="d11387f5-fb3b-4645-822f-b6942acca24e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="940aa293-ac37-430f-bb16-8d2fd0881290">
+          <propertyInstance Id="da222dbd-dcb3-4ab5-8f3d-8bb90ad9d93c" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True|Header=True">
+            <elementDefinition Id="d1f90321-d519-4185-8cfd-8ed28db9ff0f" />
+          </propertyInstance>
+          <elementDefinition Id="aed77f69-211e-4962-ad4d-efba091f589a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2e1778a5-688c-4f02-b9b3-5608c2347c41">
+          <propertyInstance Id="a97d8eb4-12e6-406c-a3b6-4784b062de07" name="Parameters">
+            <elementDefinition Id="72c93204-e084-41cc-930a-fb1861674bfe" />
+          </propertyInstance>
+          <elementDefinition Id="9c1594bc-4272-4107-9002-6e0b3b1350e1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
   <profileInstances>
-    <packageHasProfileInstances Id="a651589d-4e8d-4696-bcf3-d42de959e77d">
-      <profileInstance Id="08dd60cd-d1ec-4f5f-82f1-43ec1b86b90c" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+    <packageHasProfileInstances Id="b5f4ad38-1fd5-42aa-9a1c-bdfdf0f9c9b2">
+      <profileInstance Id="67257886-3071-4850-93b4-9d139cd93025" name="CSharpProfile">
+        <elementDefinition Id="c24f89a7-f01f-4836-ae3b-876070c018ac" />
       </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      <elementDefinition Id="74b88199-1576-4d53-a1ba-00b5c8f9cc06" />
     </packageHasProfileInstances>
-    <packageHasProfileInstances Id="809a44b8-1cf5-42ff-b91e-6d4ca3aff3f8">
-      <profileInstance Id="a014907c-ca43-4585-9383-ee8ef8ace7e8" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+    <packageHasProfileInstances Id="0a382089-464e-4dd3-a442-e42fc9428ac6">
+      <profileInstance Id="719dcd83-2f60-44eb-8afc-8de029f82cc2" name="TextTemplateBindings">
+        <elementDefinition Id="191f7593-3142-487e-8ab2-81d290f0ae3c" />
       </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      <elementDefinition Id="bdaa9b03-b69c-4bb3-a5a1-ec7281527cca" />
     </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
@@ -44,7 +116,7 @@
       </subsystem>
     </useCaseModelRootHasTypes>
     <packageHasNamedElement>
-      <useCase Id="8e67117e-0147-4944-8a1d-260b1fff0e94" name="Lancer de dé1" isAbstract="false" isLeaf="false">
+      <useCase Id="8e67117e-0147-4944-8a1d-260b1fff0e94" name="Lancer de dé" isAbstract="false" isLeaf="false">
         <elementDefinition Id="4cc6ad18-6d99-424a-b21f-1dbdd0521808" />
         <subjects>
           <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
@@ -52,11 +124,11 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="0ec9b35a-8f33-4f7b-ac11-8690e6483b76" name="Lancer un dé1" isAbstract="false" isLeaf="false">
+      <useCase Id="0ec9b35a-8f33-4f7b-ac11-8690e6483b76" name="Lancer un dé" isAbstract="false" isLeaf="false">
         <elementDefinition Id="f4206366-534d-4190-9664-dd948f27197d" />
         <generalsInternal>
           <generalization Id="2c1601d7-2c74-4a02-9dea-4863af48eb88" isSubstitutable="false">
-            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé" />
             <elementDefinition Id="ed4d9d56-f070-4740-8c28-a84a1a1b79e6" />
           </generalization>
         </generalsInternal>
@@ -66,17 +138,17 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="134f8635-0fcb-4c42-a33c-aa1c1b5a6e9d" name="Lancé deux dés1" isAbstract="false" isLeaf="false">
+      <useCase Id="134f8635-0fcb-4c42-a33c-aa1c1b5a6e9d" name="Lancé deux dés" isAbstract="false" isLeaf="false">
         <elementDefinition Id="b0511bd3-2c55-4cc5-badb-a5953fdd74f7" />
         <generalsInternal>
           <generalization Id="92b26ab3-24e7-4f76-88fd-8d46490a3838" isSubstitutable="false">
-            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé" />
             <elementDefinition Id="235c4713-14c2-4915-9d78-dbe5dcc0d918" />
           </generalization>
         </generalsInternal>
         <additions>
           <include Id="baa2442e-ffd6-4b75-a074-8b719a80cf61">
-            <useCaseMoniker Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" LastKnownName="Choisir un ou deux dés1" />
+            <useCaseMoniker Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" LastKnownName="Choisir un ou deux dés" />
             <elementDefinition Id="37c10b9f-278a-4dcb-b0e9-72571e4ece7d" />
           </include>
         </additions>
@@ -86,7 +158,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" name="Choisir un ou deux dés1" isAbstract="false" isLeaf="false">
+      <useCase Id="f4e37764-ad88-428b-82b5-b965b8c6d0dd" name="Choisir un ou deux dés" isAbstract="false" isLeaf="false">
         <elementDefinition Id="46131620-9184-4c60-bd20-0aebcdc6be22" />
         <subjects>
           <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
@@ -94,7 +166,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" name="Déplacer vaisseau1" isAbstract="false" isLeaf="false">
+      <useCase Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" name="Déplacer vaisseau" isAbstract="false" isLeaf="false">
         <elementDefinition Id="82c70d77-67de-4643-9780-b9d2c00f597a" />
         <generalsInternal>
           <generalization Id="cdac5495-d496-4c64-8418-73edbfbad417" isSubstitutable="false">
@@ -104,15 +176,15 @@
         </generalsInternal>
         <additions>
           <include Id="cdd93259-e8d8-4c75-a2e1-f54c26d747c2">
-            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé1" />
+            <useCaseMoniker Id="8e67117e-0147-4944-8a1d-260b1fff0e94" LastKnownName="Lancer de dé" />
             <elementDefinition Id="76d8928e-ede2-4c5b-8323-d1120f209072" />
           </include>
           <include Id="4e0d0087-5a28-4eed-8fce-c04c8267eeec">
-            <useCaseMoniker Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" LastKnownName="Déterminer cases accessibles1" />
+            <useCaseMoniker Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" LastKnownName="Déterminer cases accessibles" />
             <elementDefinition Id="7cd7db37-99fd-49c9-9250-fe5ec8569c37" />
           </include>
           <include Id="7a18766e-9770-4a84-8cb3-9aeadc5a2279">
-            <useCaseMoniker Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" LastKnownName="Choisir une direction1" />
+            <useCaseMoniker Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" LastKnownName="Choisir une direction" />
             <elementDefinition Id="74b5af0c-39a7-4eb7-8fba-47789967ebf2" />
           </include>
         </additions>
@@ -122,7 +194,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" name="Déterminer cases accessibles1" isAbstract="false" isLeaf="false">
+      <useCase Id="3b99d026-18a2-4199-9756-4b9f5bdaedfc" name="Déterminer cases accessibles" isAbstract="false" isLeaf="false">
         <elementDefinition Id="28230e9a-58d9-4376-9cac-72641385da9a" />
         <subjects>
           <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
@@ -130,7 +202,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" name="Choisir une direction1" isAbstract="false" isLeaf="false">
+      <useCase Id="565a2f50-11db-4dc0-8fc7-afb1b0c9ea22" name="Choisir une direction" isAbstract="false" isLeaf="false">
         <elementDefinition Id="e1d8f942-7c6b-4cac-9cc8-7f521d2bd54e" />
         <subjects>
           <subsystemMoniker Id="63f744a7-8311-4437-80f8-9474e2b20b30" LastKnownName="Actions joueur" />
@@ -226,7 +298,7 @@
         <elementDefinition Id="f9100dd1-fbc3-4a5a-9ad4-eb2a0a0ccd3b" />
         <extendedCases>
           <extend Id="8e28fea2-bc1b-4f6b-831c-1be5d33a828a">
-            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau" />
             <elementDefinition Id="617c05da-1473-46a3-8f5e-b4cd1d99a4db" />
           </extend>
         </extendedCases>
@@ -240,7 +312,7 @@
         <elementDefinition Id="41a5f457-1669-42a6-acd0-7a70bed9425b" />
         <extendedCases>
           <extend Id="47dbe482-2ebd-45eb-9ce4-2fb59f6500c5">
-            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau" />
             <elementDefinition Id="d5eec599-949f-42d0-b3dd-22a532f511fe" />
           </extend>
         </extendedCases>
@@ -254,7 +326,7 @@
         <elementDefinition Id="8c429ab1-ec59-42b0-aab2-9f8f07660ed9" />
         <extendedCases>
           <extend Id="bc9ec4fc-ccfc-4b0d-8e93-30a1abc48a4c">
-            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau1" />
+            <useCaseMoniker Id="46c41287-c1ae-42de-9a0b-9a7e64083bb6" LastKnownName="Déplacer vaisseau" />
             <elementDefinition Id="bae1f883-4903-439d-9c38-286cdd1389b7" />
           </extend>
         </extendedCases>
@@ -274,5 +346,19 @@
   </packagedElements>
   <package Id="083b6ff4-fc52-4e56-af2b-16d752519db6" name="ProjetCPPUML">
     <elementDefinition Id="3de64740-dc67-4e86-ab72-1c3f9b4e31f7" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a651589d-4e8d-4696-bcf3-d42de959e77d">
+        <profileInstance Id="08dd60cd-d1ec-4f5f-82f1-43ec1b86b90c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="809a44b8-1cf5-42ff-b91e-6d4ca3aff3f8">
+        <profileInstance Id="a014907c-ca43-4585-9383-ee8ef8ace7e8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

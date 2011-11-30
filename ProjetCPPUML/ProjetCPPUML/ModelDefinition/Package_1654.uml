@@ -5,25 +5,17 @@
   name="Controleur" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <ownedCommentsInternal>
     <comment
-      Id="8c58e7d1-c8d5-45e6-88eb-397652a01f90">
-      <body>Commande</body>
+      Id="c8adb7a7-c9b1-48e0-be8e-cb50e843ef01">
+      <body>Memento</body>
       <annotatedElements>
-        <interfaceMoniker
-          Id="51a64a25-f6b0-4e1f-9018-da1626677e53"
-          LastKnownName="Undoable"
-          LastKnownLocation="Package_1654.uml" />
-        <interfaceMoniker
-          Id="6bba7fb1-81ce-4954-aa15-1ef2b374cfe2"
-          LastKnownName="Action"
-          LastKnownLocation="Package_1654.uml" />
         <classMoniker
-          Id="937eb4de-62fd-4efd-a1f6-1bfbb4c081ae"
-          LastKnownName="ActionDeplacer"
-          LastKnownLocation="Package_1654.uml" />
+          Id="e6bdaa61-f104-4db4-8a2f-d846024ff374"
+          LastKnownName="UndoRedoManager"
+          LastKnownLocation="Package_1821.uml" />
         <classMoniker
-          Id="b36a6f13-1286-4772-9ef0-8cc2d6811ffc"
-          LastKnownName="ControleurDeplacement"
-          LastKnownLocation="Package_1654.uml" />
+          Id="eeb1a282-f64a-4bdd-bbe6-e610d966bf94"
+          LastKnownName="UndoCollector"
+          LastKnownLocation="Package_1822.uml" />
       </annotatedElements>
     </comment>
   </ownedCommentsInternal>

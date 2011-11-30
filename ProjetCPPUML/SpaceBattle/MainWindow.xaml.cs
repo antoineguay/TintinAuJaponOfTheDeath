@@ -24,5 +24,19 @@ namespace SpaceBattle
             InitializeComponent();
         }
 
+        private void Credits_Clicked(object sender, MouseEventArgs e)
+        {
+            Button boutonCredits = (Button)sender;
+            boutonCredits.Background = new ImageBrush(new BitmapImage(
+                    new Uri(@"..\..\Images\bouton_clique.jpg", UriKind.Relative)
+                ));
+        }
+
+        private void montrerCredits(object sender, RoutedEventArgs e)
+        {
+           boutonsAccueil.Visibility = Visibility.Collapsed;
+            
+        }
+
     }
 }

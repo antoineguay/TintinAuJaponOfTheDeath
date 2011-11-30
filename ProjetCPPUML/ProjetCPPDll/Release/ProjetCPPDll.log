@@ -1,0 +1,65 @@
+﻿La génération a démarré 30/11/2011 09:48:45.
+     1>Projet "Z:\4INFO\Projet POO\ProjetCPPUML\ProjetCPPDll\ProjetCPPDll.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release\ProjetCPPDll.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PROJETCPPDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Joueur.h(25): warning C4251: 'Model::Joueur::vaisseau' : class 'Model::Vaisseau' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Joueur'
+                 z:\4info\projet poo\projetcppuml\projetcppdll\Vaisseau.h(23) : voir la déclaration de 'Model::Vaisseau'
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\CaseAsteroide.h(27): warning C4251: 'Model::CaseAsteroide::formeAsteroide' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::CaseAsteroide'
+                 with
+                 [
+                     _Ty=float *
+                 ]
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Transporteur.h(24): warning C4275: interface non dll class 'Model::Vaisseau' utilisée comme base d'une interface dll class 'Model::Transporteur'
+                 z:\4info\projet poo\projetcppuml\projetcppdll\Vaisseau.h(23) : voir la déclaration de 'Model::Vaisseau'
+                 z:\4info\projet poo\projetcppuml\projetcppdll\Transporteur.h(23) : voir la déclaration de 'Model::Transporteur'
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Plateau.h(26): warning C4251: 'Model::Plateau::grille' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Plateau'
+                 with
+                 [
+                     _Ty=std::vector<Model::Case>
+                 ]
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Des.h(24): warning C4251: 'Model::Des::faces' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Des'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Jeu.h(28): warning C4251: 'Model::Jeu::joueurs' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Jeu'
+                 with
+                 [
+                     _Ty=Model::Joueur
+                 ]
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Jeu.h(30): warning C4251: 'Model::Jeu::des' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Jeu'
+                 with
+                 [
+                     _Ty=Model::Des
+                 ]
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\CapsuleDeSurvie.h(22): warning C4275: interface non dll class 'Model::Vaisseau' utilisée comme base d'une interface dll class 'Model::CapsuleDeSurvie'
+                 z:\4info\projet poo\projetcppuml\projetcppdll\Vaisseau.h(23) : voir la déclaration de 'Model::Vaisseau'
+                 z:\4info\projet poo\projetcppuml\projetcppdll\CapsuleDeSurvie.h(21) : voir la déclaration de 'Model::CapsuleDeSurvie'
+     1>z:\4info\projet poo\projetcppuml\projetcppdll\Laser.h(24): warning C4251: 'Model::Laser::pointsDePassage' : class 'std::vector<_Ty>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'Model::Laser'
+                 with
+                 [
+                     _Ty=float *
+                 ]
+         Toutes les sorties sont à jour.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ProjetCPPDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\ProjetCPPDll.obj
+         Release\stdafx.obj
+            Création de la bibliothèque Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.lib et de l'objet Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.exp
+         Génération de code en cours
+         Fin de la génération du code
+         ProjetCPPDll.vcxproj -> Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\4INFO\Projet POO\ProjetCPPUML\Release\ProjetCPPDll.dll;#2" /manifest Release\ProjetCPPDll.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\ProjetCPPDll.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\ProjetCPPDll.lastbuildstate".
+     1>Génération du projet "Z:\4INFO\Projet POO\ProjetCPPUML\ProjetCPPDll\ProjetCPPDll.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.65

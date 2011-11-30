@@ -1,0 +1,13 @@
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\bin\Release\SpaceBattle.exe
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\bin\Release\SpaceBattle.pdb
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\ResolveAssemblyReference.cache
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\MainWindow.baml
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\MainWindow.g.cs
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\App.g.cs
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\SpaceBattle_MarkupCompile.cache
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\SpaceBattle.g.resources
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\SpaceBattle.Properties.Resources.resources
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\GenerateResource.read.1.tlog
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\GenerateResource.write.1.tlog
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\SpaceBattle.exe
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Release\SpaceBattle.pdb

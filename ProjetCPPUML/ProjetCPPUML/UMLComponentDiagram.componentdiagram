@@ -1,17 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="77cb6487-bc85-4f03-bfcc-5173dd0f416f" name="UMLComponentDiagram" linkedPackageId="7c948099-60a3-4cce-8476-08d8e20ae3cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="77cb6487-bc85-4f03-bfcc-5173dd0f416f" name="UMLComponentDiagram" linkedPackageId="7c948099-60a3-4cce-8476-08d8e20ae3cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="c87180e9-508d-4c34-b44c-f1a4461eaa7b">
+      <elementDefinition Id="231d3a75-d349-4e1d-9c62-9bb9c71395fa" />
+      <body>Dispatche évènements vers le contrôleur</body>
+      <annotatedElements>
+        <componentMoniker Id="40d6b4ba-0435-48c9-84a8-b74d74a7f801" LastKnownName="C# associé au XAML" />
+      </annotatedElements>
+    </comment>
+    <comment Id="e977c716-792d-4138-8c85-8898514a2143">
+      <elementDefinition Id="d7939c66-abbd-4bf5-ab11-9d016a722691" />
+      <body>Notifications de mise à jour du modèle vers la vue</body>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="2d3d01a4-db14-4feb-9e11-7b1f483acd8f" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="68369f11-8437-487d-95bd-8b8226f25a14" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="610d10da-509b-4af2-8021-a51f05558b4b">
+          <propertyInstance Id="c6a4e2ba-9768-4929-ab5d-74cb6415ed85" name="BaseName">
+            <elementDefinition Id="8bf0962d-e32f-4f4d-8bb9-ca12e9a29eec" />
+          </propertyInstance>
+          <elementDefinition Id="a4cb3892-03ff-44c0-b702-d4835e552519" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="447ce98d-11a9-42eb-b4f5-0a774801726c">
+          <propertyInstance Id="042d7305-c35c-46af-88fc-6e344ac9cb71" name="ClrAttributes">
+            <elementDefinition Id="5b6caafd-42f5-4779-a5a4-1070943499c5" />
+          </propertyInstance>
+          <elementDefinition Id="9d35e2f6-16ad-477e-8def-6b098bb0c338" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dd8a6e3e-265c-419d-8d58-3f841a4f50a2">
+          <propertyInstance Id="c584647f-ccd3-40eb-81d0-a829db5dad5e" name="Usings">
+            <elementDefinition Id="22b89048-54d6-4e14-81b7-9a1d5bb4f91c" />
+          </propertyInstance>
+          <elementDefinition Id="08e15934-19ac-4760-94f2-0fbd46dfcc5c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="f99acfaa-56e2-488f-b3b6-bb10ba4b0525" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="8bdaa06c-1319-428e-95f5-5a5d00b90d82" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ae7d8152-d0ca-4d99-a81d-b32360a8d1bc">
+          <propertyInstance Id="234870d3-9aa8-42f3-a32e-26e9699e4138" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate|Header">
+            <elementDefinition Id="18b2b4de-8d7e-4893-8615-4ee479a2d0cd" />
+          </propertyInstance>
+          <elementDefinition Id="3408c15f-42e6-4130-9d9e-b70b17908257" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="336d25af-ec7e-4f60-9636-48f50c2206b6">
+          <propertyInstance Id="99712bee-c19e-45fb-84f4-c7194b5e244c" name="TemplateFilePath" value="ClassTemplate=..\..\Templates generation code\ClassTemplate.t4|EnumTemplate=..\..\Templates generation code\EnumTemplate.t4|InterfaceTemplate=..\..\Templates generation code\InterfaceTemplate.t4|StructTemplate=..\..\Templates generation code\StructTemplate.t4|Header=..\..\Templates generation code\TemplateHeader.t4">
+            <elementDefinition Id="0b666ce2-143e-4b8a-b0fb-4ad5955a0088" />
+          </propertyInstance>
+          <elementDefinition Id="259196bb-eb88-4484-be78-632ad6f2a073" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="20312241-0d39-4953-8746-1348fbb60883">
+          <propertyInstance Id="1a7fa384-3563-4f5b-a4f0-9c0d26874f25" name="ProjectPath" value="ClassTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|EnumTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|InterfaceTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|StructTemplate=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj|Header=..\ProjetCPPUMLLib\ProjetCPPUMLLib.csproj">
+            <elementDefinition Id="494ae978-adc8-464b-b9e4-a4f40cb20d42" />
+          </propertyInstance>
+          <elementDefinition Id="86848ede-1718-4c46-a1ca-9ae8e0729072" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="824f79a9-3e6e-4a72-9a3f-9dcdef78b73b">
+          <propertyInstance Id="86b92115-011b-496c-aebf-80f4b26f08e4" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}|Header=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="804838d9-4c35-4851-aa77-72bfd3e8fd70" />
+          </propertyInstance>
+          <elementDefinition Id="916410a6-a2fa-43ed-967c-e748b0c82214" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ce2d0201-ef22-4f7d-a4bb-0b99f0aea66f">
+          <propertyInstance Id="454f0643-4a2c-4418-b8ae-4d3dec8382be" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}|Header={Name}">
+            <elementDefinition Id="8b468639-6b5c-44b3-8d8f-5481f745d9ab" />
+          </propertyInstance>
+          <elementDefinition Id="d11387f5-fb3b-4645-822f-b6942acca24e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d8934a81-8242-4f84-bced-0514480a41f8">
+          <propertyInstance Id="655c5a14-0b25-4224-b4eb-01707934fde6" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True|Header=True">
+            <elementDefinition Id="d1f90321-d519-4185-8cfd-8ed28db9ff0f" />
+          </propertyInstance>
+          <elementDefinition Id="aed77f69-211e-4962-ad4d-efba091f589a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0cab9b45-fec7-4022-bb2f-f9f17565a606">
+          <propertyInstance Id="018ef4ef-44c2-4d6c-bc37-7adc23eaf508" name="Parameters">
+            <elementDefinition Id="72c93204-e084-41cc-930a-fb1861674bfe" />
+          </propertyInstance>
+          <elementDefinition Id="9c1594bc-4272-4107-9002-6e0b3b1350e1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
   <profileInstances>
-    <packageHasProfileInstances Id="0b0e0464-1750-441e-89b8-d6b4b13d2af8">
-      <profileInstance Id="cfa091cd-7d6f-43bd-9315-2603c3f0c650" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+    <packageHasProfileInstances Id="414652e1-2c9c-454e-937f-1a656ae00217">
+      <profileInstance Id="043c2ff2-f940-42da-8f74-9be8d677c43a" name="CSharpProfile">
+        <elementDefinition Id="c24f89a7-f01f-4836-ae3b-876070c018ac" />
       </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      <elementDefinition Id="74b88199-1576-4d53-a1ba-00b5c8f9cc06" />
     </packageHasProfileInstances>
-    <packageHasProfileInstances Id="0cde6b2d-ffb6-428f-8f39-4ea8dffd8016">
-      <profileInstance Id="eb0b4d24-74a0-4bef-90ec-c1c44988285b" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+    <packageHasProfileInstances Id="86a8ed6f-f818-4b39-9e0f-bf688be5a7c5">
+      <profileInstance Id="23c1462f-4ab4-4ede-87ca-b254af54d01e" name="TextTemplateBindings">
+        <elementDefinition Id="191f7593-3142-487e-8ab2-81d290f0ae3c" />
       </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      <elementDefinition Id="bdaa9b03-b69c-4bb3-a5a1-ec7281527cca" />
     </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
@@ -34,7 +119,7 @@
           <providedInterface Id="57625bd9-94ac-439c-892f-6bc2e2d7e63b" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
             <elementDefinition Id="dd6e2af4-1f10-4ac2-949e-5ba89ebd260c" />
             <type_NamedElement>
-              <interfaceMoniker Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" LastKnownName="Fournit" />
+              <interfaceMoniker Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" LastKnownName="Acces" />
             </type_NamedElement>
           </providedInterface>
         </ownedAttributesInternal>
@@ -57,39 +142,191 @@
           <providedInterface Id="18df2f86-0a87-4797-ae77-4a20bd9797f2" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
             <elementDefinition Id="af640696-e090-421e-ad17-b34b9eb8532c" />
             <type_NamedElement>
-              <interfaceMoniker Id="578121df-7115-418d-a008-0c7573359229" LastKnownName="Modelise" />
+              <interfaceMoniker Id="578121df-7115-418d-a008-0c7573359229" LastKnownName="Coté DLL C++" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface Id="8ecf2830-e5de-463c-8a23-d0ce344e32f3" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="f7184014-e4b1-49f1-88e2-1bae8293c546" />
+            <type_NamedElement>
+              <interfaceMoniker Id="945f3be7-8472-4713-92f5-b63956683201" LastKnownName="Modificateurs du modèle" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" name="Acces" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1aad760-eebe-4c3e-a027-c17ab5b4e695" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="578121df-7115-418d-a008-0c7573359229" name="Coté DLL C++" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5bd92db0-9c50-4477-a7c4-375a47d0e1b1" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="9fe349d5-2cae-47d2-b104-0583fb7724e8" name="FichierXAML" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2095c2db-be95-450f-92c4-fdf0cbbc0a95" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="23e8adeb-367b-4a2f-87f5-311c0ab8e34a" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="2cb7c24e-aa14-4aa3-b15d-b10039bbc490" />
+            <type_NamedElement>
+              <interfaceMoniker Id="7d517ff0-d28b-4ff9-b4ac-4549ef1d105e" LastKnownName="Gestionnaire evenements" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="40d6b4ba-0435-48c9-84a8-b74d74a7f801" name="C# associé au XAML" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b4bff80a-e3e7-48ea-8c68-88fc9c7691b0" />
+        <suppliersInternal>
+          <dependency Id="2779b023-3d2b-4c89-9613-8f6e2315ace1">
+            <componentMoniker Id="a5c16617-9e6a-4992-b620-56572b83f91f" LastKnownName="Contrôleur C#" />
+            <elementDefinition Id="50b68859-66cc-4bc9-8edc-240bfee036bf" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface Id="22814d7d-d08d-4680-a6bc-b16be7fdbd9a" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="c93ba108-66ed-4816-8ba4-ba9e98754ba4" />
+            <type_NamedElement>
+              <interfaceMoniker Id="900e8475-90b1-4bb6-b2bc-e676f8a1bd1c" LastKnownName="Gère évènements" />
             </type_NamedElement>
           </providedInterface>
         </ownedAttributesInternal>
       </component>
     </componentModelHasComponents>
     <componentModelHasComponents>
-      <component Id="6baa4e14-ec37-43b7-adca-ac18dd1cc3f5" name="Executable C#" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="e805f1dc-0546-4480-a004-1b25d8dbf879" />
+      <component Id="625d43e8-aad5-4c7d-96ae-032cba9ef181" name="Vues en C#" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d3401ce5-fe34-4466-89ef-b8069338d6a7" />
         <suppliersInternal>
-          <dependency Id="15df0574-79b7-4313-b139-fee58025b4e2">
+          <dependency Id="8ae8c96e-9062-43f9-a4da-4c23163e2ce8">
             <providedInterfaceMoniker Id="57625bd9-94ac-439c-892f-6bc2e2d7e63b" LastKnownName="Port1" />
-            <elementDefinition Id="a34e00f8-b3c9-46ef-a519-4898f2faf5cd" />
-          </dependency>
-          <dependency Id="711552a6-5829-4a99-b93b-d9b491514b87">
-            <providedInterfaceMoniker Id="18df2f86-0a87-4797-ae77-4a20bd9797f2" LastKnownName="Port1" />
-            <elementDefinition Id="fc37cece-ca52-4ffe-b5bd-b4d5adc8fc20" />
+            <elementDefinition Id="91a518e1-794d-4f40-a737-bc9678da949c" />
           </dependency>
         </suppliersInternal>
+        <ownedAttributesInternal>
+          <requiredInterface Id="9b4d88b9-a62a-4792-9936-25e4de734608" name="Port11" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="b1de0d22-e652-4015-adb4-2c93547ab2e3" />
+            <suppliersInternal>
+              <dependency Id="c16b4d6e-214d-4a24-b8f2-c982ab576359">
+                <providedInterfaceMoniker Id="00b9698a-ac4d-47f8-bf23-92f9d96cec8b" LastKnownName="Port1" />
+                <elementDefinition Id="760c3034-ddda-49a2-b693-92727ab037f1" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="ca06601d-b968-45ce-ae9c-4314f9ffac1e" LastKnownName="Gestionnaire evenements" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="f471d729-6bd4-468c-afbe-ce6b22b9872b" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ccfefa67-add9-4898-a1b4-97ca3cd2d1e4" />
+            <type_NamedElement>
+              <interfaceMoniker Id="d8bb720c-a07c-4b80-a640-7beddc57063b" LastKnownName="Accesseurs au modèle" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
       </component>
     </componentModelHasComponents>
     <modelContainsNamedElements>
-      <Interface Id="dd6532f1-f127-45f0-b9e8-c8b0c03fb9ee" name="Fournit" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="b1aad760-eebe-4c3e-a027-c17ab5b4e695" />
+      <Interface Id="900e8475-90b1-4bb6-b2bc-e676f8a1bd1c" name="Gère évènements" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1eea85e6-39e0-4bdb-b3d5-133369174467" />
       </Interface>
     </modelContainsNamedElements>
     <modelContainsNamedElements>
-      <Interface Id="578121df-7115-418d-a008-0c7573359229" name="Modelise" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="5bd92db0-9c50-4477-a7c4-375a47d0e1b1" />
+      <Interface Id="7d517ff0-d28b-4ff9-b4ac-4549ef1d105e" name="Gestionnaire evenements" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba85358d-8a13-4757-968f-3055991dffe7" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="a5c16617-9e6a-4992-b620-56572b83f91f" name="Contrôleur C#" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1456dcca-a96e-406b-9fb5-e493465ad9b5" />
+        <suppliersInternal>
+          <dependency Id="5267335e-3c22-40a2-a011-2ca12cafc1ff">
+            <providedInterfaceMoniker Id="8ecf2830-e5de-463c-8a23-d0ce344e32f3" LastKnownName="Port2" />
+            <elementDefinition Id="d913d749-17fe-47a9-997b-f3ced46d9e86" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface Id="00b9698a-ac4d-47f8-bf23-92f9d96cec8b" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="7bb1cecf-2b51-4b9f-b2db-bf6e0e5bc543" />
+            <type_NamedElement>
+              <interfaceMoniker Id="5ad004b2-9c2f-48b0-84ed-4ffbde974c04" LastKnownName="Gère évènements" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="945f3be7-8472-4713-92f5-b63956683201" name="Modificateurs du modèle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7f44572-c98c-4cbd-9af7-98633bd3b53d" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="ca06601d-b968-45ce-ae9c-4314f9ffac1e" name="Gestionnaire evenements" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7bb67385-b7fc-4a88-bc12-072fa3c1ca5a" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="5ad004b2-9c2f-48b0-84ed-4ffbde974c04" name="Gère évènements" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b0ef03da-08c7-4d1e-a4a8-12e34ea5d9c1" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="d8bb720c-a07c-4b80-a640-7beddc57063b" name="Accesseurs au modèle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="687cb5a1-cd68-431a-bba2-27f41e5adcc9" />
+      </Interface>
+    </modelContainsNamedElements>
+    <componentModelHasComponents>
+      <component Id="8a65a962-0c62-4213-bef2-30abce3dba39" name="Wrapper C++" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a2e54b37-7571-4b1f-a47e-766879e1b570" />
+        <suppliersInternal>
+          <dependency Id="e7066891-f83e-4f30-8e83-39a386c665c2">
+            <componentMoniker Id="625d43e8-aad5-4c7d-96ae-032cba9ef181" LastKnownName="Vues en C#" />
+            <elementDefinition Id="d2ddb0f3-f548-49bc-885c-772f68ec69b6" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface Id="b85ff96a-3478-426e-a89e-ee1489584b45" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="54c4659d-ecd5-4381-afb0-083e03285c98" />
+            <type_NamedElement>
+              <interfaceMoniker Id="19b34031-196b-41fc-8886-91002095bab0" LastKnownName="Indicateurs d'état du modèle" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="656dd8ed-8138-4d6e-9c5e-7557b1e30de3" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="804962aa-1e9f-4376-b426-799a86ae3125" />
+            <type_NamedElement>
+              <interfaceMoniker Id="5e62228e-f26a-4a5b-af0f-98453444bb7f" LastKnownName="Coté C#" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="19b34031-196b-41fc-8886-91002095bab0" name="Indicateurs d'état du modèle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5acb065d-0289-4a8e-88a7-c81048520b02" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="5e62228e-f26a-4a5b-af0f-98453444bb7f" name="Coté C#" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6e09ee1a-d948-497c-ba48-55ae1a6a1bf6" />
       </Interface>
     </modelContainsNamedElements>
   </packagedElements>
   <package Id="7c948099-60a3-4cce-8476-08d8e20ae3cd" name="ProjetCPPUML">
     <elementDefinition Id="3de64740-dc67-4e86-ab72-1c3f9b4e31f7" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0b0e0464-1750-441e-89b8-d6b4b13d2af8">
+        <profileInstance Id="cfa091cd-7d6f-43bd-9315-2603c3f0c650" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0cde6b2d-ffb6-428f-8f39-4ea8dffd8016">
+        <profileInstance Id="eb0b4d24-74a0-4bef-90ec-c1c44988285b" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </componentModel>

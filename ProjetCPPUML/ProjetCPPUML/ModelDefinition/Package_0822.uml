@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="6b75868e-82cf-4606-888f-970512be608a"
   name="Model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -48,7 +48,7 @@
             <classMoniker
               Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
               LastKnownName="Observable"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -193,6 +193,36 @@
               <undefinedTypeMoniker
                 Id="dcc3748c-c569-45a7-943f-2afaffad8922"
                 LastKnownName="vector"
+                LastKnownLocation="Package_0822.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c307ee93-712c-48ee-a806-2e2ff0f9f602"
+            name="coordonnees"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <lowerValueInternal>
+              <literalString
+                Id="9c3c5cbf-50e0-43ae-9f4b-4c13a18cea19"
+                name="Lower"
+                value="2" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="c7c966c1-8709-4d12-854b-aff5d16f5004"
+                name="Upper"
+                value="2" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="af5605d4-bb7f-4897-b6fd-4ae82c2bfa89"
+                LastKnownName="int"
                 LastKnownLocation="Package_0822.uml" />
             </type_NamedElement>
           </property>
@@ -465,25 +495,6 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
-          <property
-            Id="fe283553-4262-453c-aed8-4c397f623d5f"
-            name="pileDesActions"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="06866db1-4b31-4028-b046-a9f7709a671c"
-                LastKnownName="Undoable"
-                LastKnownLocation="Package_0822.uml" />
-            </type_NamedElement>
-          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -501,7 +512,7 @@
             <classMoniker
               Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
               LastKnownName="Observable"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -596,6 +607,58 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="282fc898-551b-429f-aa12-b4c210dde705"
+            isDerived="false"
+            sourceEndRoleName="Jeu"
+            targetEndRoleName="Des"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4e016766-deda-4e30-9a92-190b62001f48"
+              LastKnownName="Des"
+              LastKnownLocation="Package_0822.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ca3c5c8-315a-424a-995a-b6cde7dc1134"
+                  name="Jeu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c24cf925-391b-4b7c-9e2d-d096edf3a19b"
+                  name="Des"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="17754c86-4403-403e-a23f-3a87628c5ab9"
+                      name="Lower"
+                      value="2" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="08771168-81c8-494e-ace9-cb66f52db250"
+                      name="Upper"
+                      value="2" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -653,7 +716,29 @@
         name="Case"
         isAbstract="true"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="340a2b7f-9271-48d8-bfc6-6f3851ac4f07"
+            name="active"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="15f3740e-a2e9-4654-a2c5-06c00f7f0ffa"
+                LastKnownName="boolean"
+                LastKnownLocation="Package_0822.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -781,7 +866,7 @@
             <classMoniker
               Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
               LastKnownName="Observable"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -926,6 +1011,51 @@
                   name="int y"
                   direction="In"
                   isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="09762dd0-c51d-4116-8365-aff796e143b8"
+            name="+ activerCases"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3bfc0b81-9cea-4ba2-9516-8f59f57fdeab"
+                  name="int x"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ffdfa9f9-9870-4528-91d3-299345e8637a"
+                  name="int y"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ee04a059-57ad-4ada-9edd-e4cba56f7929"
+                  name="int nombreLanceDes("
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eca6fd63-b20f-4a58-9d1f-0ba26540a45b"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ProjetCPPUML.uml" />
+                  </type_NamedElement>
+                </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -1394,7 +1524,7 @@
     <packageHasNamedElement>
       <class
         Id="474a8bd9-5893-4b07-b89c-9e9eb035779b"
-        name="Model"
+        name="Modele"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -1405,7 +1535,7 @@
             <classMoniker
               Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
               LastKnownName="Observable"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </generalization>
         </generalsInternal>
         <targetEnds>
@@ -1521,54 +1651,6 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
-        name="Observable"
-        isAbstract="true"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedAttributesInternal>
-          <property
-            Id="7ab4a6b5-c320-4eb2-bdc6-74897e9a5cad"
-            name="observer"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6dd48688-02e7-4c16-b7b7-f02aa2ecc44a"
-                LastKnownName="vector&lt;Observer&gt;"
-                LastKnownLocation="Package_0822.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="1ebe2159-e347-4412-9773-32d3c3942459"
-            name="addObserver"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="ec7407f4-e1bb-474c-a722-9e9b75737aac"
-            name="notify"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
@@ -1802,7 +1884,7 @@
             <classMoniker
               Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
               LastKnownName="Observable"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -2050,22 +2132,75 @@
         name="double" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <Interface
-        Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
-        name="Observer"
+      <class
+        Id="4e016766-deda-4e30-9a92-190b62001f48"
+        name="Des"
         isAbstract="false"
-        isLeaf="false">
-        <ownedOperations>
-          <operation
-            Id="b37286fc-3c06-46be-a7bc-07f667a31ad1"
-            name="update"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="26b6fe8e-a77d-472c-9e0f-794b0b478f8a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59f3fdaf-740e-4d22-9d4c-4ec2d522f396"
+              LastKnownName="Observable"
+              LastKnownLocation="Package_1639.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="838b2c6c-d5e7-4607-89ea-b89fd1c8c771"
+            name="faces"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
-            isAbstract="true"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2581fa35-fbd6-4b98-af02-d951d8f334a5"
+                LastKnownName="vector&lt;int&gt;"
+                LastKnownLocation="Package_0822.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c79b3218-6eeb-4a5d-a07a-1ed0f895d841"
+            name="lancer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
             concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperations>
-      </Interface>
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1d28744e-b8f3-49e5-a537-cbdea6845e37"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="af5605d4-bb7f-4897-b6fd-4ae82c2bfa89"
+                      LastKnownName="int"
+                      LastKnownLocation="Package_0822.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="2581fa35-fbd6-4b98-af02-d951d8f334a5"
+        name="vector&lt;int&gt;" />
     </packageHasNamedElement>
   </packagedElements>
 </package>

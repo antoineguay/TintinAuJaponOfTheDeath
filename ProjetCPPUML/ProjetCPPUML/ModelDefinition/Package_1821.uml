@@ -142,5 +142,134 @@
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e6bdaa61-f104-4db4-8a2f-d846024ff374"
+        name="UndoRedoManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="bd71b130-47b3-423f-88ef-bb738365048e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="998e328c-f252-4da5-9a82-a8ab119998db"
+              LastKnownName="Instrument"
+              LastKnownLocation="Package_1821.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8a0353d2-c842-4012-b2b1-50bcee679f16"
+            name="actionUndo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="ed6a7736-2289-4906-8a3b-5498c10de302"
+            name="actionRedo()"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="445e3b1e-c21f-42ee-bcd3-36f6a15ad5bc"
+        name="Stack" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0e586ea9-595c-403b-b6b6-142022c33d68"
+        name="BoutonNouvellePartie"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="7e5c120d-b895-4d2b-96f1-9166f00fabda"
+            isSubstitutable="false">
+            <classMoniker
+              Id="998e328c-f252-4da5-9a82-a8ab119998db"
+              LastKnownName="Instrument"
+              LastKnownLocation="Package_1821.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="28a72481-d49a-4b70-b6e0-f78d59583f10"
+            name="boutonPresse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f77fdb66-24a7-41a3-8ff8-b63d68733396"
+        name="BoutonLancerPartie"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="57724f80-26c0-4e93-9b46-528e90ef5ba7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="998e328c-f252-4da5-9a82-a8ab119998db"
+              LastKnownName="Instrument"
+              LastKnownLocation="Package_1821.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="592a1fba-fbbf-4e19-b158-546992754147"
+            name="boutonPresse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c28a847d-3eb4-4e2b-97ff-f6e81d688dc5"
+        name="BoutonQuitter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="983d4881-eb92-48e7-93eb-e13f66597e63"
+            isSubstitutable="false">
+            <classMoniker
+              Id="998e328c-f252-4da5-9a82-a8ab119998db"
+              LastKnownName="Instrument"
+              LastKnownLocation="Package_1821.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="38b5d9f0-952d-423d-b609-af5bb86d3b84"
+            name="boutonPresse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>

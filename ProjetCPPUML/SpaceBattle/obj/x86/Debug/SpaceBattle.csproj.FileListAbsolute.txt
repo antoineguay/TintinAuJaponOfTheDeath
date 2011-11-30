@@ -22,3 +22,16 @@ Z:\Documents\Projet CPP\ProjetCPPUML\SpaceBattle\obj\x86\Debug\GenerateResource.
 Z:\Documents\Projet CPP\ProjetCPPUML\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
 Z:\Documents\Projet CPP\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
 Z:\Documents\Projet CPP\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\bin\Debug\SpaceBattle.exe
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\bin\Debug\SpaceBattle.pdb
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\MainWindow.baml
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\MainWindow.g.cs
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\App.g.cs
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle_MarkupCompile.cache
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.g.resources
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.Properties.Resources.resources
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
+Z:\4INFO\Projet POO\ProjetCPPUML\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb

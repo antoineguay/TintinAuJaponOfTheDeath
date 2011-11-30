@@ -1,52 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="25923dab-8735-49a6-a8fe-7280b62dd2db"
   name="Vue" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
-  <ownedCommentsInternal>
-    <comment
-      Id="9a4736ec-a38f-4d94-a384-c12d3b222826">
-      <body>Fabrique abstraite</body>
-      <annotatedElements>
-        <interfaceMoniker
-          Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-          LastKnownName="FabriqueVueCaseAbs"
-          LastKnownLocation="Package_1605.uml" />
-      </annotatedElements>
-    </comment>
-    <comment
-      Id="524876d3-3053-4523-a178-c5d08f1d6dd9">
-      <body>Fabrique abstraite</body>
-      <annotatedElements>
-        <interfaceMoniker
-          Id="0da88cd5-3115-40ca-a410-83a103fde15d"
-          LastKnownName="FabriqueVuesVaisseauAbs"
-          LastKnownLocation="Package_1605.uml" />
-      </annotatedElements>
-    </comment>
-    <comment
-      Id="e5102a92-c8ff-4266-a52d-5be5db21bced">
-      <body>Poids mouche</body>
-      <annotatedElements>
-        <classMoniker
-          Id="734dd31d-6215-4064-ae11-942f148d72d0"
-          LastKnownName="CaseEnergie"
-          LastKnownLocation="Package_1605.uml" />
-        <classMoniker
-          Id="68855736-deb2-449b-91b3-f1c694ce00f7"
-          LastKnownName="CaseVide"
-          LastKnownLocation="Package_1605.uml" />
-        <classMoniker
-          Id="f0d93a02-10bc-4b4d-b04f-d4de6b087aa5"
-          LastKnownName="CaseArtefact"
-          LastKnownLocation="Package_1605.uml" />
-        <interfaceMoniker
-          Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-          LastKnownName="FabriqueVueCaseAbs"
-          LastKnownLocation="Package_1605.uml" />
-      </annotatedElements>
-    </comment>
-  </ownedCommentsInternal>
   <packagedElements>
     <packageHasNamedElement>
       <class
@@ -61,7 +17,7 @@
             <interfaceMoniker
               Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
               LastKnownName="Observer"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
@@ -143,7 +99,7 @@
             <interfaceMoniker
               Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
               LastKnownName="Observer"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
@@ -322,49 +278,7 @@
         name="VueCase"
         isAbstract="true"
         isLeaf="false"
-        isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="da2ef893-2a96-45b6-83e7-2db3f1426bad"
-            isDerived="false"
-            sourceEndRoleName="VueCase"
-            targetEndRoleName="TypeCase"
-            isLeaf="false"
-            isAbstract="false">
-            <enumerationMoniker
-              Id="2b8a8ee7-d7bc-4b62-9ea8-12f566087089"
-              LastKnownName="TypeCase"
-              LastKnownLocation="Package_1605.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="9bb5d727-00e8-47f0-a0ce-1fa07b1944f4"
-                  name="VueCase"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="e4f8327d-b59b-4132-b58e-c659dfc74ce7"
-                  name="TypeCase"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
-      </class>
+        isActiveClass="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -379,7 +293,7 @@
             <interfaceMoniker
               Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
               LastKnownName="Observer"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
@@ -522,275 +436,6 @@
         isActiveClass="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <Interface
-        Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-        name="FabriqueVueCaseAbs"
-        isAbstract="false"
-        isLeaf="false">
-        <suppliersInternal>
-          <dependency
-            Id="09273348-ee63-480e-a0ae-20f707a4b2bd">
-            <classMoniker
-              Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-              LastKnownName="VueCase"
-              LastKnownLocation="Package_1605.uml" />
-          </dependency>
-        </suppliersInternal>
-        <ownedOperations>
-          <operation
-            Id="17573dba-03aa-48a7-b35b-63690e7833da"
-            name="creerCaseVide"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="ab7d1d78-3700-42db-9fb9-8c1c6ad14a55"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="c494e2a6-279d-4b0b-9bde-b506ae324d83"
-            name="creerCaseAsteroide"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="35554ce1-83a0-41a3-a10f-05a6ad4e973b"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="10424b2f-7a82-4cc0-9067-a53d642e4f80"
-            name="creerCaseEnergie"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="9bfda4df-9eec-470d-93b2-28124fad9211"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="936f4d79-5558-422a-bcaa-c43aace887a9"
-            name="creerCaseArtefact"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="ddba5c73-6a1c-4240-8445-8c7b4407cca8"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="4bb9cf13-d4e1-4e9a-bb8d-62c34c41465c"
-            name="creerCaseBase"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="150ff8be-a2a3-46b1-a28c-f629ec0f5edd"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperations>
-      </Interface>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="86f869d5-0cd9-4fcb-a06c-71214c4d43da"
-        name="FabriqueVueCase2D"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <suppliersInternal>
-          <interfaceRealization
-            Id="91968aab-3055-426b-96e0-10a75caf3eb6">
-            <interfaceMoniker
-              Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-              LastKnownName="FabriqueVueCaseAbs"
-              LastKnownLocation="Package_1605.uml" />
-          </interfaceRealization>
-        </suppliersInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="e277acdb-09a0-4fc2-bf29-7313d1390aab"
-            name="creerCaseVide"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="c17ac1fa-7d03-4891-b37a-ebd9ac6819fb"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="a0b40c64-484b-4b84-a1f8-d3b8a739f9ac"
-            name="creerCaseAsteroide"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="4c425c53-84d6-4122-b215-5fe5a0fd63e8"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="880be1df-d3cf-4492-94bf-21bd1a43d08a"
-            name="creerCaseEnergie"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="5bd2fbae-0742-4c59-8342-da7e77427953"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="9eaa7ae6-48fe-497d-836e-0e25707f4086"
-            name="creerCaseArtefact"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="2a2af59f-b3ee-4b9e-96d0-f64762abca3a"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="ea3085f4-f7e6-48b0-a298-53c68a81f6ec"
-            name="creerCaseBase"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="62a3c7a9-319e-443d-917b-b4d56924e546"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f1a5afa5-d0ad-4f25-8b3b-ff741a162f54"
-                      LastKnownName="VueCase"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <class
         Id="9baad9b8-a805-4811-a871-6ae86e8dc7b8"
         name="FabriqueVueCase3D"
@@ -802,8 +447,8 @@
             Id="00bbc7ec-3f5a-4c92-8d7d-0353f2ecf354">
             <interfaceMoniker
               Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-              LastKnownName="FabriqueVueCaseAbs"
-              LastKnownLocation="Package_1605.uml" />
+              LastKnownName="FabriqueVueCase"
+              LastKnownLocation="Package1_1706.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -937,8 +582,8 @@
             Id="cc4890e4-e333-4090-b623-708e52401555">
             <interfaceMoniker
               Id="736c7adb-0afd-4b82-aba9-8103fba20c4e"
-              LastKnownName="FabriqueVueCaseAbs"
-              LastKnownLocation="Package_1605.uml" />
+              LastKnownName="FabriqueVueCase"
+              LastKnownLocation="Package1_1706.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -1197,183 +842,6 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="b93a0f23-64f2-4be2-b875-bef27385fd0f"
-        name="FabriqueVuesVaisseau2D"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <suppliersInternal>
-          <interfaceRealization
-            Id="3d4bdc3b-bbb2-4fa0-a1ca-0ba432081d34">
-            <interfaceMoniker
-              Id="0da88cd5-3115-40ca-a410-83a103fde15d"
-              LastKnownName="FabriqueVuesVaisseauAbs"
-              LastKnownLocation="Package_1605.uml" />
-          </interfaceRealization>
-          <dependency
-            Id="efe79141-687c-467c-8e2c-f67add8dfe81">
-            <classMoniker
-              Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-              LastKnownName="VueVaisseau"
-              LastKnownLocation="Package_1605.uml" />
-          </dependency>
-        </suppliersInternal>
-        <ownedOperationsInternal>
-          <operation
-            Id="ca45db8f-2c64-4c89-8e27-4f6b92877736"
-            name="creerCapsuleDeVie"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="9330382c-d9ca-44fd-8503-1c6d5cc2330e"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="86121cf6-dd5c-46e6-9c8c-91c56e33eaf1"
-            name="creerBattleCruiser"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="260ae6dc-778b-46fa-a718-e7104aa891a5"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="81ec1464-ebd0-4d5c-96e7-1c2883411701"
-            name="creerVaisseauMere"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="fe46386d-efea-4986-971e-0a2852864443"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <Interface
-        Id="0da88cd5-3115-40ca-a410-83a103fde15d"
-        name="FabriqueVuesVaisseauAbs"
-        isAbstract="false"
-        isLeaf="false">
-        <ownedOperations>
-          <operation
-            Id="9a72f5a7-3392-4c2e-a589-1b78ca1502d9"
-            name="creerCapsuleDeVie"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="32da7c1b-6a4f-449c-9577-ef0264590230"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="d7efee95-805d-4359-9737-4578573a03fd"
-            name="creerBattleCruiser"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="560d407b-900f-4d6a-aa7b-f88c8b71b3b2"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="c2f72183-a752-48df-a3d7-9e1998312190"
-            name="creerVaisseauMere"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="true"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="6fe911a7-671b-4da2-88c5-54346770cf52"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="f2d49ae2-add4-4a78-999e-b6f54647a0e9"
-                      LastKnownName="VueVaisseau"
-                      LastKnownLocation="Package_1605.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-        </ownedOperations>
-      </Interface>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
         Id="bd0f01af-2cfd-47d8-b96b-fa744d2f87a4"
         name="FabriqueVuesVaisseau3D"
         isAbstract="false"
@@ -1384,8 +852,8 @@
             Id="fd56af80-6dfe-4f0a-b5ae-f8691268c50d">
             <interfaceMoniker
               Id="0da88cd5-3115-40ca-a410-83a103fde15d"
-              LastKnownName="FabriqueVuesVaisseauAbs"
-              LastKnownLocation="Package_1605.uml" />
+              LastKnownName="FabriqueVuesVaisseau"
+              LastKnownLocation="Package1_1706.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -1474,8 +942,8 @@
             Id="1eea9dbc-b35d-4877-a52d-8fc35e8a2de8">
             <interfaceMoniker
               Id="0da88cd5-3115-40ca-a410-83a103fde15d"
-              LastKnownName="FabriqueVuesVaisseauAbs"
-              LastKnownLocation="Package_1605.uml" />
+              LastKnownName="FabriqueVuesVaisseau"
+              LastKnownLocation="Package1_1706.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
@@ -1558,22 +1026,6 @@
         name="Vaisseau" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <enumeration
-        Id="2b8a8ee7-d7bc-4b62-9ea8-12f566087089"
-        name="TypeCase"
-        isAbstract="false"
-        isLeaf="false">
-        <ownedLiterals>
-          <enumerationLiteral
-            Id="dd3d0d75-aa17-4d41-860e-8e4380582c79"
-            name="CASE_ARTEFACT" />
-          <enumerationLiteral
-            Id="b15ab4f0-f409-45c2-a432-27ab0d8317b5"
-            name="CASE_VIDE" />
-        </ownedLiterals>
-      </enumeration>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <undefinedType
         Id="d3c3c055-816b-46a3-b664-0ad6696a6eb1"
         name="Color" />
@@ -1591,7 +1043,7 @@
             <interfaceMoniker
               Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
               LastKnownName="Observer"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
@@ -1953,7 +1405,7 @@
             <interfaceMoniker
               Id="76945714-0a1a-4a3d-ac58-2c69f593bdf1"
               LastKnownName="Observer"
-              LastKnownLocation="Package_0822.uml" />
+              LastKnownLocation="Package_1639.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
@@ -2133,6 +1585,105 @@
           </property>
         </ownedAttributesInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6f966fe0-9e56-4fa1-9f2d-da9d58a507cb"
+        name="Observable"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="586469c7-fd99-4aa5-baaf-2a43fda7661b"
+            name="observer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6dd48688-02e7-4c16-b7b7-f02aa2ecc44a"
+                LastKnownName="vector&lt;Observer&gt;"
+                LastKnownLocation="Package_0822.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d6be3d85-926b-49cb-a3ee-9304d0a643f0"
+            name="addObserver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7ebc686c-9be8-49b6-bb95-5766fe90124c"
+            name="notify"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="49e3c3b7-af2e-4398-a4c3-a4ccea36dacb"
+        LastKnownName="Observer"
+        LastKnownLocation="Package_1639.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6164ed62-6b5f-4024-8778-669c5dd4d6a4"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package_1641.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="af3d1ae0-fd56-45ab-b65e-f99b9df21929"
+        name="FabriqueVueVaisseau" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1809070a-c442-4857-b10d-d2130f6b63ae"
+        name="ProjetCPPUML::Vue::FabriqueVueVaisseau" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e3cbc3a3-0b3e-42e8-a605-a0a13c62dad0"
+        name="FabriqueTableauDeBord" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="34dd5dc4-f4bb-43a7-bdde-d1ca0452aa8c"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package_1706.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="79363482-4349-4f53-95be-4ef57fed0899"
+        LastKnownName="Interfaces1"
+        LastKnownLocation="Package1_1706.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ce722a4e-7981-4330-9628-d6d3cc3032b1"
+        LastKnownName="Impl2D"
+        LastKnownLocation="Package_1723.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="68afb349-b7a9-4c58-90b2-6cfcd614ea67"
+        LastKnownName="Fabriques"
+        LastKnownLocation="Package_1746.uml" />
     </packageHasNamedElement>
   </packagedElements>
 </package>

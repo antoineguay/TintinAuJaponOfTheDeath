@@ -17,13 +17,52 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
   <ItemGroup>
+    <Content Include="ModelDefinition\Package1_1706.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1604.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1605.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1639.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1641.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1654.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1705.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1706.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1708.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1723.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1746.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1821.uml">
@@ -46,26 +85,19 @@
       <SubType>Content</SubType>
       <DependentUpon>UMLComponentDiagram.componentdiagram</DependentUpon>
     </Content>
-    <Content Include="UMLSequenceDiagram_TirAlternatif.sequencediagram">
+    <Content Include="UMLSequenceDiagram_Deplacement.sequencediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UMLSequenceDiagram_TirAlternatif.sequencediagram.layout">
+    <Content Include="UMLSequenceDiagram_Deplacement.sequencediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>UMLSequenceDiagram_TirAlternatif.sequencediagram</DependentUpon>
+      <DependentUpon>UMLSequenceDiagram_Deplacement.sequencediagram</DependentUpon>
     </Content>
-    <Content Include="UMLSequenceDiagram_TirErreur.sequencediagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="UMLSequenceDiagram_TirErreur.sequencediagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>UMLSequenceDiagram_TirErreur.sequencediagram</DependentUpon>
-    </Content>
-    <Content Include="UMLSequenceDiagram_TirNominal.sequencediagram">
+    <Content Include="UMLSequenceDiagram_Tir.sequencediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UMLSequenceDiagram_TirNominal.sequencediagram.layout">
+    <Content Include="UMLSequenceDiagram_Tir.sequencediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>UMLSequenceDiagram_TirNominal.sequencediagram</DependentUpon>
+      <DependentUpon>UMLSequenceDiagram_Tir.sequencediagram</DependentUpon>
     </Content>
     <Content Include="UseCaseDiagram.usecasediagram">
       <SubType>Content</SubType>

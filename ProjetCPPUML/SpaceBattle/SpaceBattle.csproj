@@ -53,6 +53,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -70,21 +71,89 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controleur\command\QuitterPartie.cs" />
+    <Compile Include="Controleur\command\Tirer.cs" />
+    <Compile Include="Controleur\command\Undoable.cs" />
+    <Compile Include="Controleur\command\UndoCollector.cs" />
+    <Compile Include="Vue\Fabriques\FabriqueVue2D.cs" />
+    <Compile Include="Vue\Impl2D\FenetreAccueil2D.cs" />
+    <Compile Include="Vue\Impl2D\FenetreJeu2D.cs" />
+    <Compile Include="Vue\Impl2D\VueArtefact2D.cs" />
+    <Compile Include="Vue\Impl2D\VueBattleCruiser2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCapsuleDeSurvie2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCase2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCaseArtefact2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCaseAsteroide2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCaseBase2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCaseEnergie2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCaseVide2D.cs" />
+    <Compile Include="Vue\Impl2D\VueChoixJoueurs2D.cs" />
+    <Compile Include="Vue\Impl2D\VueComposantTableauDeBord2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCompteurArtefacts2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCompteurCanon2D.cs" />
+    <Compile Include="Vue\Impl2D\VueCredits2D.cs" />
+    <Compile Include="Vue\Impl2D\VueDes2D.cs" />
+    <Compile Include="Vue\Impl2D\VueLaser2D.cs" />
+    <Compile Include="Vue\Impl2D\VuePlateau2D.cs" />
+    <Compile Include="Vue\Impl2D\VueQuitter2D.cs" />
+    <Compile Include="Vue\Impl2D\VueTableauDeBord2D.cs" />
+    <Compile Include="Vue\Impl2D\VueVaisseau2D.cs" />
+    <Compile Include="Vue\Impl2D\VueVaisseauMere2D.cs" />
+    <Compile Include="Vue\Interfaces\FabriqueVue.cs" />
+    <Compile Include="Vue\Interfaces\FabriqueVuesAbs.cs" />
+    <Compile Include="Vue\Interfaces\FenetreAccueil.cs" />
+    <Compile Include="Vue\Interfaces\FenetreJeu.cs" />
+    <Compile Include="Vue\Interfaces\VueArtefact.cs" />
+    <Compile Include="Vue\Interfaces\VueBattlecruiser.cs" />
+    <Compile Include="Vue\Interfaces\VueCapsuleDeSurvie.cs" />
+    <Compile Include="Vue\Interfaces\VueCase.cs" />
+    <Compile Include="Vue\Interfaces\VueCaseArtefact.cs" />
+    <Compile Include="Vue\Interfaces\VueCaseAsteroide.cs" />
+    <Compile Include="Vue\Interfaces\VueCaseBase.cs" />
+    <Compile Include="Vue\Interfaces\VueCaseEnergie.cs" />
+    <Compile Include="Vue\Interfaces\VueCaseVide.cs" />
+    <Compile Include="Vue\Interfaces\VueChoixJoueurs.cs" />
+    <Compile Include="Vue\Interfaces\VueComposantTableauDeBord.cs" />
+    <Compile Include="Vue\Interfaces\VueCompteurArtefacts.cs" />
+    <Compile Include="Vue\Interfaces\VueCompteurCanon.cs" />
+    <Compile Include="Vue\Interfaces\VueCredits.cs" />
+    <Compile Include="Vue\Interfaces\VueDes.cs" />
+    <Compile Include="Vue\Interfaces\VueLaser.cs" />
+    <Compile Include="Vue\Interfaces\VuePlateau.cs" />
+    <Compile Include="Vue\Interfaces\VueQuitter.cs" />
+    <Compile Include="Vue\Interfaces\VueTableauDeBord.cs" />
+    <Compile Include="Vue\Interfaces\VueVaisseau.cs" />
+    <Compile Include="Vue\Interfaces\VueVaisseauMere.cs" />
+    <Compile Include="Vue\Observer\Observable.cs" />
+    <Compile Include="Vue\Observer\Observer.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Controleur\command\Action.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="Controleur\command\DeplacerVaisseau.cs" />
+    <Compile Include="Controleur\command\FinirTour.cs" />
+    <Compile Include="Controleur\command\LancerDes.cs" />
+    <Compile Include="Controleur\command\LancerPartie.cs" />
+    <Compile Include="Controleur\instrument\BoutonDes.cs" />
+    <Compile Include="Controleur\instrument\BoutonLancerPartie.cs" />
+    <Compile Include="Controleur\instrument\BoutonNouvellePartie.cs" />
+    <Compile Include="Controleur\instrument\BoutonQuitter.cs" />
+    <Compile Include="Controleur\instrument\CurseurPlateau.cs" />
+    <Compile Include="Controleur\instrument\Instrument.cs" />
+    <Compile Include="Controleur\instrument\UndoRedoManager.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controleur\command\NouvellePartie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -129,6 +198,21 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fond_accueil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bouton_clique.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bouton_clique.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bouton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
